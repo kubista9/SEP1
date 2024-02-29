@@ -1,0 +1,23 @@
+.div.navbar-wrapper {
+    padding: 15px;
+}
+
+.navbar-container a {
+    float: left;
+    padding: 5px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.navbar-container a {
+    float: left;
+    padding: 5px 15px;
+}
+
+.navbar-container a {
+    padding-top: 21px;
+}
+.navbar-container a:first-child {
+    padding-top: 0;
+}
+

@@ -1,0 +1,46 @@
+/* Coded by Mark */
+
+/* About us big text */
+h1{
+    margin-top: 75px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* alligning the text to the center | deprecated? */
+.center {
+    text-align: center;
+}
+
+/* centering "modules" */
+.box{
+    justify-content: center;
+    align-items: center;
+}
+
+/* how the "modules" behave */
+#Us .box {
+    float: left;
+    padding: 100px;
+    margin: 3px 6px;
+    margin-top: 0px;
+}
+
+/* how the images behave */
+#Us .box img {
+    margin-top: 10px;
+    height: 150px;
+    margin: auto;
+    display: block;
+    border-radius: 200px;
+}
+
+/* simple footer */
+footer {
+    text-align: right;
+    position:fixed;
+    right:50px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+    }

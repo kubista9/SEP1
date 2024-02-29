@@ -1,0 +1,45 @@
+/* Filip Svehlak */
+.fblinktext {
+    color: green
+}
+
+.eventchess-wrapper,
+.eventcheckers-wrapper,
+.eventmonopoly-wrapper,
+.gamenight-wrapper {
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.eventchess-container,
+.eventcheckers-container,
+.eventmonopoly-container,
+.gamenight-container {
+    padding: 25px;
+}
+
+.eventchess-container h2,
+.eventcheckers-container h2,
+.eventmonopoly-container h2,
+.gamenight-container h2 {
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    backdrop-filter: blur(20px) saturate(50%);
+}
+
+.eventchess-wrapper,
+.eventcheckers-wrapper,
+.eventmonopoly-wrapper,
+.gamenight-wrapper {
+    width: 45%;
+    margin: 2.5%;
+}
+
+.eventchess-wrapper,
+.eventcheckers-wrapper,
+.eventmonopoly-wrapper,
+.gamenight-wrapper {
+    height: 560px;
+}

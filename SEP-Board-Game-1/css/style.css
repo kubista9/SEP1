@@ -1,0 +1,126 @@
+/* Montserrat font */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+/*Ricardo Fernandes*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #d9d9d9;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+
+a:hover {
+    color: rgb(125, 124, 124);
+    transition: all 0.3s ease-in-out;
+}
+
+p {
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Open sans';
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h4, h5, h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    color: black;
+    font-family: 'Montserrat';
+}
+/* Button Css*/
+.btn {
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 25px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.btn:hover {
+    transform: scale(1.7);
+    border-color:rgb(125, 124, 124);
+    background-color: black;
+    color: white;  
+}
+
+/*INDEX HTML*/
+
+.homepage-everlay, .background-image {
+    width: 50%;
+    height: 100vh;
+    float: left;
+}
+/*Background image*/
+.homepage-wrapper {
+    background-image: url(../images/Background2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+/*background color with opacity left side of Index*/
+.homepage-everlay {
+    background-color: #d9d9d9;
+    opacity: 0.95;
+}
+
+.content-wrapper{
+    padding-left: 80px;
+    padding-top: 17%;
+    height: 75vh;
+    overflow: hidden; 
+    
+}
+.content-wrapper h2{
+    padding: 15px 0;
+    padding-bottom: 35px;
+    
+}
+.content-wrapper a.btn {
+    margin-bottom: 50px;
+}

@@ -1,0 +1,146 @@
+/*first section*/
+.games1-wrapper {
+  padding-top: 15px;
+}
+
+/*all wrappers*/
+  .chess-wrapper, .checkers-wrapper, .monopoly-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper   {
+    float: left;
+    position: relative;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 300px;
+
+    border-radius: 20px;
+}
+
+/*all containers*/
+.chess-container, .checkers-container, .monopoly-container, .scrabble-container, .mahjong-container, .domino-container   {
+    padding: 25px;
+}
+
+/*h2s*/
+.chess-container h2, .checkers-container h2, .monopoly-container h2, .scrabble-container h2, .mahjong-container h2, .domino-container h2 {
+    /*text*/
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+
+    padding: 7.5%;
+    padding-bottom: 12px;   
+}
+
+  /*small boxes*/
+  .chess-wrapper, .checkers-wrapper, .scrabble-wrapper, .mahjong-wrapper {
+      width: 48.75%;
+      margin-left: 0.75%;
+      margin-right: 0.75%;
+  }
+
+  /*left side*/
+  .chess-wrapper, .scrabble-wrapper {
+      margin-left: 0.75%;
+      margin-right: 0.375%;
+  }
+
+  /*right side*/
+  .checkers-wrapper, .mahjong-wrapper {
+    margin-left: 0.375%;
+    margin-right: 0.75%;
+  }
+
+  /*big boxes*/
+  .monopoly-wrapper, .domino-wrapper {
+      width: 98.5%;
+      margin: 0.75%;
+      height: 400px;
+  }
+
+  /*chess*/
+
+.chess-wrapper {
+    background-image: url(../images/Games/chess.jpg);
+}
+
+  /*checkers*/
+
+  .checkers-wrapper {
+    background-image: url(../images/Games/checkers.jpg);  
+}
+
+  /*monopoly*/
+
+  .monopoly-wrapper {
+    background-image: url(../images/Games/monopoly.jpeg);
+}
+
+  /*srabble*/
+
+  .scrabble-wrapper {
+    background-image: url(../images/Games/scrabble.jpeg);
+}
+
+  /*mahjong*/
+
+  .mahjong-wrapper {
+    background-image: url(../images/Games/mahjong.jpg);
+}
+
+  /*domino*/
+
+  .domino-wrapper {
+    background-image: url(../images/Games/domino.jpg);
+}
+
+/*image overlay*/
+.image-overlay {
+  display: block;
+  
+  width: 100%;
+  height: 100%;
+  padding: 10%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /*background effect*/
+  background: rgba( 11, 10, 10, 0.25 );
+  opacity: 0;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur( 4px );
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  transition: all 0.3s  ease-in-out;
+  overflow: hidden;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+  overflow: hidden;
+}
+
+/*image overlay styling*/
+.image-overlay h2, p {
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.image-overlay h2 {
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  font-weight: 800;
+}
+
+/*paddings didnt fit the overaly - makeup fix*/
+.domino-wrapper > .image-overlay {
+  padding: 9%;
+}
+
+.monopoly-wrapper > .image-overlay {
+  padding: 9%;
+}
