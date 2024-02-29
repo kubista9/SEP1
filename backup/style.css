@@ -1,0 +1,39 @@
+/*general*/
+* {
+    box-sizing: border-box;
+}
+
+/*classes*/
+
+.wrapper {
+    height: 100%;
+}
+
+.chess-wrapper, .checkers-wrapper, .scrabble-wrapper, .mahjong-wrapper, .domino-wrapper {
+    width: 45%;
+}
+
+.chess-wrapper, .checkers-wrapper, .scrabble-wrapper, .mahjong-wrapper, .monopoly-wrapper {
+    height:300px ;
+    background-color: aqua;
+}
+
+.domino-wrapper {
+    height: 600px;
+}
+
+.monopoly-wrapper {
+    width: 90%;
+}
+
+/*chess*/
+
+/*checkers*/
+
+/*monopoly*/
+
+/*srabble*/
+
+/*mahjong*/
+
+/*domino*/
