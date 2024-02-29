@@ -1,0 +1,13 @@
+/* Navbar logo padding */
+.navbar-brand{              
+    padding: 20px 40px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.navbar-toggler{
+    padding: 30px;
+    border: none;
+}

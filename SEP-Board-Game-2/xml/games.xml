@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gameList>
+  <size>5</size>
+    <game>
+      <order>1</order>
+      <nameOfGame>Checkers</nameOfGame>
+      <numberOfPlayers>5</numberOfPlayers>
+      <gameOwner>Bob</gameOwner>
+      <lendTo>Marcus</lendTo>
+      <dateOfLend>30.12.2022</dateOfLend>
+    </game>
+     <game>
+     <order>2</order>
+      <nameOfGame>Monopoly</nameOfGame>
+      <numberOfPlayers>4</numberOfPlayers>
+      <gameOwner>Jakub</gameOwner>
+      <lendTo>Bob</lendTo>
+      <dateOfLend>26.12.2022</dateOfLend>
+    </game>
+     <game>
+     <order>3</order>
+      <nameOfGame>Chess</nameOfGame>
+      <numberOfPlayers>2</numberOfPlayers>
+      <gameOwner>Ricardo</gameOwner>
+      <lendTo>MVP</lendTo>
+      <dateOfLend>11.12.2022</dateOfLend>
+    </game>
+     <game>
+     <order>4</order>
+      <nameOfGame>Scrabble</nameOfGame>
+      <numberOfPlayers>4</numberOfPlayers>
+      <gameOwner>Filip</gameOwner>
+      <lendTo>Marcus</lendTo>
+      <dateOfLend>6.12.2022</dateOfLend>
+    </game>
+     <game>
+     <order>5</order>
+      <nameOfGame>Domino</nameOfGame>
+      <numberOfPlayers>6</numberOfPlayers>
+      <gameOwner>MVP</gameOwner>
+      <lendTo>Bob</lendTo>
+      <dateOfLend>1.12.2022</dateOfLend>
+    </game>
+</gameList>
+

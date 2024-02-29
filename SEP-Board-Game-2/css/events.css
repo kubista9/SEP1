@@ -1,0 +1,37 @@
+/* Filip Svehlak */
+
+/* next upcomming event color */
+.next {
+    background-color: #FFCDB9;
+}
+
+/* later upcomming events color */
+.later {
+    background-color: #c5bbbb;
+}
+
+div.row {
+    background-color: #c5bbbb;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#firstEvent {
+    background-color: #FFCDB9;
+}
+
+.event-container {
+    margin-top: 15px;
+}
+
+.event-container:last-child{
+    display:none;
+}
+
+.event-container:nth-last-child(2){
+    margin-bottom: 55px;
+}
+
+* {
+    font-family: Montserrat;
+}

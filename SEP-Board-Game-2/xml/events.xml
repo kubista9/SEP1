@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eventList>
+  <size>5</size>
+    <event>
+      <nameOfTheEvent>Chess tournament</nameOfTheEvent>
+      <date>12.1.2023</date>
+      <place>VIA University Collage</place>
+      <description>Join the BBC Association's first ever event!</description>
+    </event>
+     <event>
+      <nameOfTheEvent>Checkers tournament</nameOfTheEvent>
+      <date>30.1.2023</date>
+      <place>Fængsel</place>
+      <description>We will be hosting a chess tournament for all ages and skill levels.</description>
+    </event>
+     <event>
+      <nameOfTheEvent>Monopoly meet</nameOfTheEvent>
+      <date>13.2.2023</date>
+      <place>VIA University Collage</place>
+      <description>Join the BBC Association's first ever event! We will be hosting a chess tournament for all ages and skill levels. The tournament will be held at VIA Horsens, and will be free to enter. The winner will receive a prize of 1000 DKK. As this is the first event of our association, free food and drinks will be provided! We hope to see you there!
+</description>
+    </event>
+     <event>
+      <nameOfTheEvent>Game night</nameOfTheEvent>
+      <date>15.2.2023</date>
+      <place>brætspilscafe</place>
+      <description>The tournament will be held at VIA Horsens, and will be free to enter. The winner will receive a prize of 1000 DKK. As this is the first event of our association, free food and drinks will be provided! We hope to see you there!
+</description>
+    </event>
+     <event>
+      <nameOfTheEvent>Board games night</nameOfTheEvent>
+      <date>30.2.2023</date>
+      <place>VIA University Collage</place>
+      <description>Join the BBC Association's first ever event! We will be hosting a chess tournament for all ages and skill levels. The tournament will be held at VIA Horsens, and will be free to enter. The winner will receive a prize of 1000 DKK. As this is the first event of our association, free food and drinks will be provided! We hope to see you there!
+</description>
+    </event>
+    
+</eventList>
+
